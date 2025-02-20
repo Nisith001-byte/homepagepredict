@@ -22,6 +22,6 @@ def predict_home_price():
 if __name__ == '__main__':
     print('Starting server...')
     util.load_saved_artifacts()
-    app.run(debug=True)
+    app.run(debug=True, port=3000)
 
 
